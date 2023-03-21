@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background: orange;
+    padding: 5px;
+}
+.contact h1{
+    font-size: 18px;
+}
+.contact h1 span{
+    color: white;
+}
+
+.auth a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+#login{
+    color:black;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.nav h1 span{
+    color:orange;
+}
+
+.nav ul li{
+    padding:10px 20px 10PX 0;
+    display: inline-block;
+    
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+.links{
+    padding-top: 40px;
+}
+
+
+.links ul{
+    display: flex;
+    
+}
+.links ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.links ul li a{
+    color: black;
+    
+
+}
+
+#contact{
+    padding-top: 30px;
+}
+
+#contact h1{
+    color: orange;
+}
+
+.content{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#heading{
+    color:orange;
+    border-bottom:4px solid black;
+    padding-bottom: 5px;
+    font-family:'Opensans';
+    margin-bottom: 20px;
+}
+.contact-form{
+    flex-basis: 48%;
+    width: 100%;
+}
+
+form input{
+    margin-top: 10px;
+  width:100%;
+  height:40px;
+}
+
+form textarea{
+    margin-top: 10px;
+    width:100%;
+    height:100px;
+}
+.social-media{
+    flex-basis: 48%;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    margin-right: 0;
+    
+}
+.social-media ul{
+    padding-top: 30px;
+    display: flex;
+}
+.social-media ul li{
+    list-style: none;
+}
+ul li .fa{
+    padding-right: 5px;
+    font-size: 30px;
+   
+}
+button{
+    color: white;
+    background-color: orange;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    border: none;
+}
