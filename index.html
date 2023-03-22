@@ -14,10 +14,10 @@
 
 
 
-    <div class="container">
+   
     <div class="header">
         <div class="contact">
-            <h1>Call US NOW! <span>385.154.11.28.35</span></h1>
+            <h1>CALL US NOW! <span>385.154.11.28.35</span></h1>
         </div>
         <div class="auth">
             <a href="" id="login">LOGIN</a>
@@ -25,11 +25,23 @@
         </div>
     </div>
 
+    <div class="container">
     <div class="nav">
         <h1>YOUR<span>LOGO</span></h1>
         <ul>
-            <li><a href="">TITLE1</a></li>
-            <li><a href="">TITLE2</a></li>
+            <li><a href="">TITLE1</a></li> 
+            <li class="parent"><a href="#">TITLE2</a>
+                <ul class="child">
+                    <li><a href="#">SUBMENU 1</a></li>
+                    <li><a href="#">SUBMENU 2</a></li>
+                    <li class="parent"><a href="#">SUBMENU 3</a><span class="expand">»</span></a>
+                        <ul class="child">
+                            <li><a href="#">SUBMENU 1</a></li>
+                            <li><a href="#">SUBMENU 2</a></li>
+                            <li><a href="#">SUBMENU 3</a></li>
+                        </ul></li>
+                    
+                </ul></li>  
             <li><a href="">TITLE3</a></li>
             <li><a href="">TITLE4</a></li>
             <li><a href="">TITLE5</a></li>
@@ -40,9 +52,9 @@
 
     <div class="links">
         <ul>
-            <li><a href=""></a>Home /</li>
-            <li><a href=""></a>Who We Are /</li>
-            <li><a href=""></a>Contact</li>
+            <li><a href="">Home /</a></li>
+            <li><a href="">Who We Are /</a></li>
+            <li><a href="">Contact</a></li>
         </ul>
     </div>
 
@@ -64,7 +76,7 @@
                
                 <div class="row">
                     <input type="text" placeholder="Phone *" >
-                    <input type="text" placeholder="Email *" ><br>
+                    <input type="text" placeholder="Email *" >
                 </div>
                 
                 <textarea name="mesage" id="message" placeholder="Message *"></textarea><br>
